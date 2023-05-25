@@ -16,7 +16,6 @@ sudo apt install qemu build-essential flex bison qemu-system-x86 libelf-dev -y
 
 # Getting core number to run
 CORE_NUM=$(lscpu | grep "^CPU(s):" | awk '{print $2}')
-CORE_NUM=$((CORE_NUM + 2))
 # Create directory where everything will be compiled
 mkdir -p src
 cd src
