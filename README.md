@@ -6,3 +6,4 @@ And also runs echo __Hello world!__ via ``busybox``
 #### Running
 
 You might need to enter your password during startup (to install dependencies via apt)
+Run with ``./script.sh``
