@@ -9,7 +9,7 @@ set -e
 # Installing dependencies
 echo "Installing dependencies"
 echo "Need sudo for dependencies"
-sudo apt install qemu build-essential flex bison qemu-system-x86 libelf-dev -y
+sudo apt install qemu build-essential flex bison qemu-system-x86 libelf-dev libssl-dev -y
 
 
 # Probably should've made variables for the kernel version and busybox versions
